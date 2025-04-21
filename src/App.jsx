@@ -13,6 +13,7 @@ import Feed from './Pages/Feed'
 import Patients from './Pages/Patients'
 import Appointment from './Pages/Appointment'
 import About from './Pages/About'
+import Complaint from './Pages/Complaint'
 
 
 export default function App() {
@@ -29,6 +30,7 @@ export default function App() {
           <Route path="/Patients" element={<Patients />} />
           <Route path="/BookApointment/:DoctorName" element={<Appointment />} />
           <Route path="/about" element={<About />} />
+          <Route path="/Complaint" element={<Complaint />} />
           
           {/* Other routes can be added similarly */}
           <Route path="*" element={

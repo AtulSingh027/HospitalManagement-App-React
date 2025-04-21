@@ -1,7 +1,7 @@
 import React from 'react'
 import { useNavigate } from 'react-router-dom'
 
-import { HomeIcon,Calendar,Users,UserPlus,InfoIcon } from 'lucide-react'
+import { HomeIcon,Calendar,Users,UserPlus,InfoIcon,FormInputIcon } from 'lucide-react'
 const SideBar = () => {
     const menuItems = [
       { icon: HomeIcon, label: 'Home', path: '/' },
@@ -9,6 +9,7 @@ const SideBar = () => {
       { icon: Users,    label: 'Doctors', path: '/doctors' },
       { icon: UserPlus, label: 'Patients', path: '/patients' },
       { icon:InfoIcon , label: 'About', path: '/about' },
+      {icon :FormInputIcon , label: 'Complaint', path: '/Complaint' },
     ]
 
     let Navigate = useNavigate();
